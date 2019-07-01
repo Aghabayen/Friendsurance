@@ -7,6 +7,8 @@ services:
       - .:/app
     working_dir: /app
     command: mvn clean test
+    depends_on:
+      - chrome-dirver
   chrome-dirver:
     image: selenium/standalone-chrome:latest
     ports:
