@@ -2,7 +2,7 @@
 QA automation test
 
 # Prerequisites
-- docker
+- [docker]
 - makefile
 
 # How to run test
